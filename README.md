@@ -22,11 +22,14 @@ Usage
 -----
 Or directly go to [the dedicated website](http://www.metabaron.net/gomiso) or donwload the PHP code
 and install it (no need for database) and update:
+
 "display.php"
+
 	 4 - define('TVDB_KEY', 'XXXXXXXXXXX');
 	 4 - define('TVDB_KEY', 'Your TVDB API key');
 
 "index.php" and "callback.php"
+
 	2 - define('GOMISO_KEY', 'XXXXXXXXXXX');
 	3 - define('GOMISO_SECRET', 'XXXXXXXXXXX');
 	
